@@ -1,5 +1,5 @@
 # iService: User-Oriented and Privacy-Aware Proximity Services
-PhD thesis "Edge-Driven Proximity Service Platform for the Internet of Things in Indoor Environments" of Michael Haus
+PhD thesis *Edge-Driven Proximity Service Platform for the Internet of Things in Indoor Environments* of Michael Haus
 
 This repository addresses the RQ3 of the research problem:<br/>
 **How to realize user-oriented and privacy-aware IoT services by utilizing physical surrounding awareness in the managed indoor IoT areas?**
