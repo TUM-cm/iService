@@ -1,0 +1,2924 @@
+{
+  "1": {
+    "entries": [
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -78
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -67
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -86
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -83
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -85
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -84
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -86
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -82
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -70
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -82
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -85
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -84
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -83
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -86
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -72
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -73
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -59
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -72
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -69
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -70
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -61
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -72
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -87
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -75
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -77
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -80
+      }
+    ],
+    "startTimestamp": 6776598,
+    "stopTimestamp": 6786609
+  },
+  "2": {
+    "entries": [
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -70
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -68
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -81
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -70
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -57
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -63
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -84
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -84
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -86
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -90
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -86
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -88
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -85
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -71
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -60
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -61
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -70
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -83
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -61
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -64
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -82
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -83
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -87
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -86
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -79
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -75
+      }
+    ],
+    "startTimestamp": 6795792,
+    "stopTimestamp": 6805807
+  },
+  "3": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -62
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -78
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -75
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -75
+      }
+    ],
+    "startTimestamp": 6760847,
+    "stopTimestamp": 6770862
+  },
+  "4": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -75
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -55
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -63
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -70
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -63
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -82
+      }
+    ],
+    "startTimestamp": 6743110,
+    "stopTimestamp": 6753121
+  },
+  "5": {
+    "entries": [
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -71
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -56
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -62
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -82
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -88
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -81
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -86
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -73
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -64
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -59
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -83
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -83
+      }
+    ],
+    "startTimestamp": 6814326,
+    "stopTimestamp": 6824334
+  },
+  "6": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -70
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -63
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -81
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -72
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -82
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -78
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -92
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -69
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -69
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -86
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -68
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -71
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -50
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -55
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -70
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -90
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -84
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -84
+      }
+    ],
+    "startTimestamp": 6923073,
+    "stopTimestamp": 6933089
+  },
+  "7": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -49
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -55
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -52
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -64
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -50
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -65
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -68
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -89
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -50
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -59
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -73
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -65
+      }
+    ],
+    "startTimestamp": 6938122,
+    "stopTimestamp": 6948135
+  },
+  "8": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -48
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -69
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -74
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -73
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -75
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -87
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -57
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -70
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -63
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -68
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -46
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -58
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -70
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -74
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -56
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -52
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -75
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -52
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -88
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -60
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -66
+      }
+    ],
+    "startTimestamp": 6960403,
+    "stopTimestamp": 6970421
+  },
+  "9": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -78
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -58
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -54
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -79
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -48
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -64
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -69
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -68
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -89
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -70
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -89
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -71
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -89
+      },
+      {
+        "mac": "5E:FD:87:9B:F1:29",
+        "rssi": -70
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -50
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -76
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -79
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -78
+      }
+    ],
+    "startTimestamp": 6976270,
+    "stopTimestamp": 6986283
+  },
+  "10": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -68
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -61
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -67
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -73
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -68
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -68
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -83
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -89
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -94
+      }
+    ],
+    "startTimestamp": 7015135,
+    "stopTimestamp": 7025150
+  },
+  "11": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -65
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -58
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -57
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -63
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -50
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      }
+    ],
+    "startTimestamp": 7032571,
+    "stopTimestamp": 7042588
+  },
+  "12": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -52
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -54
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -63
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -75
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -65
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -89
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -69
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -52
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -64
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -51
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -70
+      }
+    ],
+    "startTimestamp": 7066681,
+    "stopTimestamp": 7076693
+  },
+  "13": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -56
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -62
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -73
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -71
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -57
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -73
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -78
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -75
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -79
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -78
+      }
+    ],
+    "startTimestamp": 7083079,
+    "stopTimestamp": 7093090
+  },
+  "14": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -44
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -50
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -74
+      },
+      {
+        "mac": "BC:14:85:C7:4F:D9",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -57
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -62
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -59
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -90
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -62
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -61
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -93
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -69
+      }
+    ],
+    "startTimestamp": 7141358,
+    "stopTimestamp": 7151370
+  },
+  "15": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -55
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -59
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -60
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -67
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -61
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -65
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -47
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -52
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -79
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -80
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -61
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -47
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -60
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -67
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -50
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -65
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -67
+      }
+    ],
+    "startTimestamp": 7124486,
+    "stopTimestamp": 7134505
+  },
+  "16": {
+    "entries": [
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -76
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -50
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -50
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -49
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -59
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -55
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -93
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -56
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -59
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -61
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -77
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -45
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -48
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -44
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -47
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -78
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -60
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -59
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -91
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -91
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -64
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -60
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -62
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -88
+      }
+    ],
+    "startTimestamp": 7179998,
+    "stopTimestamp": 7190007
+  },
+  "17": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -44
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -46
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -57
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -54
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -86
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -56
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -53
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -88
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -56
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -54
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -68
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -40
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -65
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -42
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -65
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -67
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -82
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -83
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -64
+      }
+    ],
+    "startTimestamp": 7163942,
+    "stopTimestamp": 7173956
+  },
+  "18": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -51
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -51
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -61
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -62
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -61
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -61
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -69
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -79
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -46
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -55
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -78
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -51
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -48
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -65
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -63
+      }
+    ],
+    "startTimestamp": 7213536,
+    "stopTimestamp": 7223553
+  },
+  "19": {
+    "entries": [
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -74
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -54
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -65
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -92
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -48
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -57
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -67
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -53
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -77
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -36
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -59
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -73
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -92
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -54
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -60
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -55
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -58
+      }
+    ],
+    "startTimestamp": 7196700,
+    "stopTimestamp": 7206715
+  },
+  "20": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -58
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -58
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -69
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -64
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -56
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -67
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -67
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -67
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -49
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -54
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -54
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -79
+      }
+    ],
+    "startTimestamp": 7316947,
+    "stopTimestamp": 7326966
+  },
+  "21": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -52
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -57
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -70
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -69
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -69
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -64
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -54
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -67
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -53
+      },
+      {
+        "mac": "F8:73:10:71:AE:C6",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -57
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -58
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -59
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -63
+      }
+    ],
+    "startTimestamp": 7298582,
+    "stopTimestamp": 7308596
+  },
+  "22": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -73
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -82
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -65
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -57
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -64
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -52
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -68
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -78
+      }
+    ],
+    "startTimestamp": 7278110,
+    "stopTimestamp": 7288124
+  },
+  "23": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -59
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -82
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -68
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -71
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -73
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -65
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -80
+      }
+    ],
+    "startTimestamp": 7261185,
+    "stopTimestamp": 7271197
+  },
+  "24": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -75
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -57
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -83
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -78
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -83
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -64
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -63
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -65
+      }
+    ],
+    "startTimestamp": 7379399,
+    "stopTimestamp": 7389412
+  },
+  "25": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -75
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -82
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -78
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -79
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -79
+      }
+    ],
+    "startTimestamp": 7362730,
+    "stopTimestamp": 7372743
+  },
+  "26": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -64
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -90
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -79
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -67
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -68
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -64
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -79
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -82
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -83
+      }
+    ],
+    "startTimestamp": 7416698,
+    "stopTimestamp": 7426712
+  },
+  "27": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -69
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -83
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -86
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -70
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -61
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -80
+      }
+    ],
+    "startTimestamp": 7398785,
+    "stopTimestamp": 7408804
+  },
+  "28": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -86
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -86
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -89
+      }
+    ],
+    "startTimestamp": 7503406,
+    "stopTimestamp": 7513418
+  },
+  "29": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -69
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -83
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -82
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -67
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -82
+      }
+    ],
+    "startTimestamp": 7487786,
+    "stopTimestamp": 7497801
+  },
+  "30": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -89
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -91
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -82
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -68
+      }
+    ],
+    "startTimestamp": 7538238,
+    "stopTimestamp": 7548255
+  },
+  "31": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -75
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -94
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -71
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -70
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -86
+      }
+    ],
+    "startTimestamp": 7521247,
+    "stopTimestamp": 7531262
+  },
+  "32": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -86
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -71
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -90
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -91
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -82
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -89
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -89
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -88
+      }
+    ],
+    "startTimestamp": 7590386,
+    "stopTimestamp": 7600398
+  },
+  "33": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -84
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -91
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -90
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -69
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -82
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -83
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -83
+      }
+    ],
+    "startTimestamp": 7607607,
+    "stopTimestamp": 7617617
+  },
+  "34": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -82
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -83
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -77
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -67
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -66
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -75
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -90
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -85
+      }
+    ],
+    "startTimestamp": 7629988,
+    "stopTimestamp": 7640002
+  },
+  "35": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -92
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -89
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -84
+      }
+    ],
+    "startTimestamp": 7650049,
+    "stopTimestamp": 7660065
+  },
+  "36": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -60
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -70
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -79
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -83
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -81
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -90
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -92
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -78
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -83
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -92
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -81
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -83
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -83
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -61
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -65
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -70
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -69
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -64
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -68
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -61
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -72
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -80
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -86
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -79
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -81
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -84
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -83
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -79
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -81
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -66
+      }
+    ],
+    "startTimestamp": 7697908,
+    "stopTimestamp": 7707921
+  },
+  "37": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -68
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -74
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -74
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -84
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -87
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -84
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -86
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -83
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -82
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -90
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -65
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -63
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -66
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -78
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -60
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -80
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -81
+      }
+    ],
+    "startTimestamp": 7717192,
+    "stopTimestamp": 7727206
+  },
+  "38": {
+    "entries": [
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -63
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -71
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -69
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -81
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -89
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -80
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -88
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -86
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -84
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -86
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -83
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -83
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -88
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -86
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -76
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -70
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -75
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -72
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -81
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -72
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -73
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -88
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -84
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -85
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -85
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -88
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -78
+      }
+    ],
+    "startTimestamp": 7734333,
+    "stopTimestamp": 7744351
+  },
+  "39": {
+    "entries": [
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -58
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -65
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -67
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -65
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -77
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -83
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -89
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -74
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -82
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -88
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -85
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -73
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -78
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -85
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -73
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -68
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -69
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -61
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -67
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -69
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -62
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:CA",
+        "rssi": -87
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -80
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -84
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -84
+      },
+      {
+        "mac": "7C:2F:80:EA:F3:63",
+        "rssi": -78
+      },
+      {
+        "mac": "62:3D:F3:18:02:AF",
+        "rssi": -84
+      }
+    ],
+    "startTimestamp": 7751054,
+    "stopTimestamp": 7761062
+  }
+}

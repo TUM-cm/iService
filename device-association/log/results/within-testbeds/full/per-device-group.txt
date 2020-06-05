@@ -1,0 +1,27 @@
+device group: well-known & stranger
+mean cold start: 16.0
+mean roc auc: 0.978
+mean accuracy: 0.966
+mean precision: 0.967
+mean recall: 0.93
+mean f1-score: 0.947
+best clf feature: GradientBoostingClassifier-coupling time week full false
+-------------
+device group: personal
+mean cold start: 23.0
+mean roc auc: 0.994
+mean accuracy: 0.948
+mean precision: 0.915
+mean recall: 0.934
+mean f1-score: 0.923
+best clf feature: NaiveBayes-coupling time ratio week full false
+-------------
+device group: family & friends
+mean cold start: 17.0
+mean roc auc: 0.992
+mean accuracy: 0.944
+mean precision: 0.916
+mean recall: 0.919
+mean f1-score: 0.917
+best clf feature: NaiveBayes-coupling time ratio week full false
+-------------

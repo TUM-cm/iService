@@ -1,0 +1,164 @@
+<html>
+
+<head>
+<style>
+
+.rooms tbody {
+  display:block;
+  overflow:auto;
+  height:400px;
+  width:100%;
+}
+
+.services tbody {
+  display:block;
+  overflow:auto;
+  width:100%;
+}
+
+.services thead tr {
+  display:block;
+}
+
+.rooms thead tr {
+  display:block;
+}
+
+.services th, .services td {
+  text-align: left;
+  width: 200px;
+}
+
+.rooms th, .rooms td {
+  text-align: left;
+  width: 200px;
+}
+
+thead {
+  background: black;
+  color:#fff;
+}
+
+input[type="text"] {
+  width: 100px;
+}
+
+.heavy { font: bold 30px sans-serif; }
+
+}
+
+</style>
+</head>
+
+<h1>Private Service Discovery</h1>
+
+<form action="">
+
+<h2>Privacy Status</h2>
+<!-- 339.292 * (1 - percentage) = offset / https://codepen.io/xgad/post/svg-radial-progress-meters -->
+<p>
+<div class="demo">
+    <svg width="120" height="120" viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
+        <circle cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" stroke-dasharray="339.292" stroke-dashoffset="271.4336" />
+        <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="heavy">20%</text>
+    </svg>
+</div>
+</p>
+
+Explanation:
+<ul>
+  <li>100% = Invisible: all wireless interfaces are shutdown</li>
+  <li>0% = Visible: wireless interfaces are active, visible for surrounding users</li>
+</ul>
+
+<h2>Configuration of Service Discovery</h2>
+
+<hr>
+<h3>Service Selection</h3>
+
+<input type="radio" name="service" value="all">Allow all services<br>
+<input type="radio" name="service" value="nothing">Allow no services<br>
+<input type="radio" name="service" value="specific">Allow specific services<br>
+
+<table class="services">
+<thead>
+	<tr>
+		<th>Selection</th>
+		<th>Name</th>
+	</tr>
+</thead>
+<tbody>
+{% for item in services %}
+<tr>
+	<td><input type="checkbox"></td>
+	<td>{{item.name}}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+<hr>
+<h3>Service Place</h3>
+
+<table class="rooms">
+<thead>
+	<tr>
+		<th>Selection</th>
+		<th>Room number</th>
+		<th>Description</th> 
+	</tr>
+</thead>
+<tbody>
+{% for item in rooms %}
+<tr>
+	<td><input type="checkbox"></td>
+	<td>{{item.room}}</td>
+	<td>{{item.description}}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+<hr>
+<h3>Service Date and Time</h3>
+
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th>Mo</th>
+    <th>Tue</th> 
+    <th>Wed</th>
+    <th>Thu</th>
+    <th>Fr</th>
+    <th>Sat</th>
+    <th>Sun</th>
+  </tr>
+</thead>
+  <tr>
+  	<td>Weekday</td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>    
+  </tr>
+  <tr>
+  	<td>Time</td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>    
+  </tr>
+</table>
+
+<p><input type="submit" value="Submit"></p>
+
+</form>
+</html>

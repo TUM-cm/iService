@@ -1,0 +1,27 @@
+device group: personal
+mean cold start: 56.0
+mean roc auc: 0.983
+mean accuracy: 0.961
+mean precision: 0.942
+mean recall: 0.934
+mean f1-score: 0.936
+best clf feature: GradientBoostingClassifier-contact frequency week true sum
+-------------
+device group: well-known & stranger
+mean cold start: 45.0
+mean roc auc: 0.992
+mean accuracy: 0.975
+mean precision: 0.965
+mean recall: 0.963
+mean f1-score: 0.963
+best clf feature: GradientBoostingClassifier-contact frequency week true sum
+-------------
+device group: family & friends
+mean cold start: 55.0
+mean roc auc: 0.98
+mean accuracy: 0.961
+mean precision: 0.938
+mean recall: 0.954
+mean f1-score: 0.945
+best clf feature: GradientBoostingClassifier-contact frequency week true sum
+-------------

@@ -1,0 +1,25 @@
+update BBB to Debian Buster
+sudo apt-get install python-pip
+(sudo pip install enum34)
+sudo apt-get install python-dev libffi-dev libssl-dev
+sudo pip install twisted[tls]
+sudo pip install flask
+sudo pip install pexpect
+sudo pip install netifaces
+(sudo pip install service_identity)
+
+optional to update openSSL
+https://mdxdave.de/technik/linux/openssl-debian
+wget https://www.openssl.org/source/openssl-1.0.2q.tar.gz
+
+# Server
+ifconfig wlan0 up 10.0.0.1 netmask 255.255.255.0
+
+apt-get install dnsmasq
+via  /etc/dnsmasq.conf 
+interface=wlan0
+dhcp-range=10.0.0.3,10.0.0.20,12h
+
+apt-get install psmisc
+killall wpa_supplicant
+apt-get remove wpasupplicant

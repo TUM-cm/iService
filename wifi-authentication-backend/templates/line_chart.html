@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='static/Chart.min.js'></script>
+    <script src='static/jquery-3.3.1.min.js'></script>
+    <script src='static/socket.io.js'></script>
+    
+	    <script type="text/javascript" charset="utf-8">
+	        $(document).ready(function() {
+	            var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + '/test');
+	            
+	            Chart.defaults.global.responsive = false;
+	            Chart.defaults.global.legend.display = false;
+      			Chart.defaults.global.tooltips.enabled = false;     
+	            var ctx = document.getElementById("myChart").getContext("2d");
+	           	var chartData = {
+	           		labels: [0],
+        			datasets: [{
+        				data: [0],
+        				radius: 0,
+        				fill: false,
+        				borderColor: "blue"
+        			}]
+        		}
+        		var chart = new Chart(ctx, {
+        			type: 'line',
+        			data: chartData,
+        			options: {
+        				animation: false,
+					    scales: {
+					      xAxes: [{
+					        gridLines: {
+					          display: false
+					        }
+					      }],
+					      yAxes: [{
+            				ticks: {
+                				beginAtZero: true
+            				}
+        				  }]
+					    }
+        			}
+      			});
+      			
+      			socket.on('img_light_signal', function(data) {
+      				chart.data.datasets[0].data = data.y;
+					chart.data.labels = data.x;
+      				chart.update();
+	            });
+	        });
+	    </script>
+    <style>
+	    #myChart {
+	    	width:100%;
+	    	height:500px;
+	    }
+    </style>
+  </head>
+  <body>
+  	<p>Light Signal - Voltage in mV</p>
+    <canvas id="myChart"></canvas>
+  </body>
+</html>

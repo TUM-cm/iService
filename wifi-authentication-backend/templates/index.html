@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>Authentication Monitor</title>
+	    <script src='static/jquery-3.3.1.min.js'></script>
+    	<script src='static/socket.io.js'></script>
+    	<script src='static/Chart.min.js'></script>    
+	    <script type="text/javascript" charset="utf-8">
+	        $(document).ready(function() {
+	        	<!--document.getElementById("stop").disabled = true;-->
+	        	
+	            var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + '/auth');
+	           	Chart.defaults.global.responsive = false;
+	            Chart.defaults.global.legend.display = false;
+      			Chart.defaults.global.tooltips.enabled = false;
+      			
+	            var ctx_img_light_signal = document.getElementById("img_light_signal").getContext("2d");
+	            var chart_data_img_light_signal = {
+	           		labels: [0],
+        			datasets: [{
+        				data: [0],
+        				radius: 0,
+        				fill: false,
+        				borderColor: "blue"
+        			}]
+        		}
+        		var chart_img_light_signal = new Chart(ctx_img_light_signal, {
+        			type: 'line',
+        			data: chart_data_img_light_signal,
+        			options: {
+        				animation: false,
+					    scales: {
+					      xAxes: [{
+					        gridLines: {
+					          display: false
+					        }
+					      }],
+					      yAxes: [{
+            				ticks: {
+                				beginAtZero: true
+            				}
+        				  }]
+					    }
+        			}
+      			});
+      			
+      			var ctx_img_duration_data = document.getElementById("img_duration_data").getContext("2d");
+	            var chart_data_img_duration_data = {
+	           		labels: [0],
+        			datasets: [{
+        				data: [0],
+        				radius: 0,
+        				fill: false,
+        				borderColor: "green"
+        			}]
+        		}
+        		var chart_img_duration_data = new Chart(ctx_img_duration_data, {
+        			type: 'line',
+        			data: chart_data_img_duration_data,
+        			options: {
+        				animation: false,
+					    scales: {
+					      xAxes: [{
+					        gridLines: {
+					          display: false
+					        }
+					      }],
+					      yAxes: [{
+            				ticks: {
+                				beginAtZero: true
+            				}
+        				  }]
+					    }
+        			}
+      			});
+	            
+	            var ctx_img_duration_wifi = document.getElementById("img_duration_wifi").getContext("2d");
+	            var chart_data_img_duration_wifi = {
+	           		labels: [0],
+        			datasets: [{
+        				data: [0],
+        				radius: 0,
+        				fill: false,
+        				borderColor: "green"
+        			}]
+        		}
+        		var chart_img_duration_wifi = new Chart(ctx_img_duration_wifi, {
+        			type: 'line',
+        			data: chart_data_img_duration_wifi,
+        			options: {
+        				animation: false,
+					    scales: {
+					      xAxes: [{
+					        gridLines: {
+					          display: false
+					        }
+					      }],
+					      yAxes: [{
+            				ticks: {
+                				beginAtZero: true
+            				}
+        				  }]
+					    }
+        			}
+      			});
+	            
+	            socket.on('connect', function() {
+	            	$('#status-socketio').text("connected");
+	            });
+	            
+	            socket.on('status', function(data) {
+	            	$('#status').text(data);
+	            });
+	            socket.on('generated_password', function(data) {
+	            	$('#generated_password').text(data);
+	            });
+	            socket.on('actions', function(data) {
+	                <!--$('#actions').append('<br>' + $('<div/>').text(data).html());-->
+	                $('#actions').html(data);
+	            });
+	            socket.on('authentication_success', function(data) {
+	            	$('#authentication_success').text(data);
+	            });
+	            socket.on('authentication_fail', function(data) {
+	            	$('#authentication_fail').text(data);
+	            });
+	            socket.on('duration_data', function(data) {
+	            	$('#duration_data').text(data);
+	            });
+	            socket.on('duration_wifi', function(data) {
+	            	$('#duration_wifi').text(data);
+	            });
+	            socket.on('img_duration_data', function(data) {
+	            	chart_img_duration_data.data.datasets[0].data = data.y;
+					chart_img_duration_data.data.labels = data.x;
+      				chart_img_duration_data.update();
+	            });
+	            socket.on('img_duration_wifi', function(data) {
+	            	chart_img_duration_wifi.data.datasets[0].data = data.y;
+					chart_img_duration_wifi.data.labels = data.x;
+      				chart_img_duration_wifi.update();
+	            });
+	            
+	            socket.on('received_ssid', function(data) {
+	            	$('#received_ssid').text(data);
+	            });
+	            socket.on('received_password', function(data) {
+	            	$('#received_password').text(data);
+	            });
+	            socket.on('morse_data', function(data) {
+	            	$('#morse_data').text(data);
+	            });
+	            socket.on('img_light_signal', function(data) {
+	            	chart_img_light_signal.data.datasets[0].data = data.y;
+					chart_img_light_signal.data.labels = data.x;
+      				chart_img_light_signal.update();
+	            });
+	        });
+	    </script>
+		<style>
+			#actions {
+				white-space: pre;
+				font-family: "Courier New", Courier, monospace;
+			}
+			#img_light_signal {
+				width:100%;
+	    		height:500px;
+			}
+			#img_duration_data {
+				width:100%;
+	    		height:400px;
+			}
+			#img_duration_wifi {
+				width:100%;
+	    		height:400px;
+			}
+			#ssid {
+				border: none;
+			}
+		</style>
+	</head>
+	<body>
+		<!--<p>Status socket io: <b><span id="status-socketio"></span></b></p>-->
+		<h1>Authentication Monitor</h1>
+				
+		<h2>Access Point</h2>
+	    <h3>Configuration</h3>
+	    <form method="POST" action=".">
+	    {{ form.led.label }} <br> {{ form.led }} <p>
+	    {{ form.ssid.label }} <br> {{ form.ssid }} <p>
+	    {{ form.password_refresh_rate.label }} <br> {{ form.password_refresh_rate }} <p>
+	    {{ form.start(disabled=disable_start) }} {{ form.stop(disabled=disable_stop) }}
+	    </form>
+	    <p>Status: <b><span id="status"></span></b></p>	
+	    <p>Generated Wi-Fi password: <b><span id="generated_password"></span></b></p>	
+	    <hr>
+	    <h3>Access Point Actions</h3>
+	    <span id="actions"></span>
+	    <hr>
+		<h3>Authentication Accuracy</h3>
+		<p>Success: <b><span id="authentication_success"></span></b></p>	
+	    <p>Failure: <b><span id="authentication_fail"></span></b></p>
+	    <hr>
+	    <h3>Performance</h3>
+	    <h4>Duration for data transmission</h4>
+	    <p>Measurement: <b><span id="duration_data"></span></b></p>
+	    <canvas id="img_duration_data"></canvas>
+	    <h4>Duration for Wi-Fi authentication</h4>
+	    <p>Measurement: <b><span id="duration_wifi"></span></b></p>
+	    <canvas id="img_duration_wifi"></canvas>
+	    <hr>
+	    
+	    <h2>Access Point Client</h2>
+	    <p>Received SSID: <b><span id="received_ssid"></span></b></p>
+	    <p>Received Wi-Fi password: <b><span id="received_password"></span></b></p>
+	    <p>Parsed Morse data: <b><span id="morse_data" style="display: block; width:500px;"></span></b></p>
+	    <h3>Raw light signal - Voltage (mV)</h3>
+	    <canvas id="img_light_signal"></canvas>
+	</body>
+</html>

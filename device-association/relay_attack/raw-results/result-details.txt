@@ -1,0 +1,182 @@
+40 datalen, 10 users, n-dim
+
+line-of-sight:latency:ExtraTreesClassifier:latency-raw-position : 0.9
+line-of-sight:latency:ExtraTreesClassifier:latency-selected-position : 0.9
+line-of-sight:latency:AdaBoost:latency-selected-position : 0.9
+line-of-sight:rssi:AdaBoost:rssi-basic-position : 0.9
+line-of-sight:rssi:AdaBoost:rssi-raw-position : 0.9
+line-of-sight:rssi:RandomForest:rssi-basic-position : 0.9
+---
+non-line-of-sight:latency:AdaBoost:latency-selected-room : 0.888
+non-line-of-sight:latency:ExtraTreesClassifier:latency-selected-room : 0.888
+non-line-of-sight:latency:RandomForest:latency-selected-room : 0.888
+non-line-of-sight:rssi:AdaBoost:rssi-basic-room : 0.9
+non-line-of-sight:rssi:AdaBoost:rssi-raw-room : 0.9
+non-line-of-sight:rssi:RandomForest:rssi-raw-room : 0.9
+---
+
+> 40 datalen, 20 users, n-dim
+
+line-of-sight:latency:AdaBoost:latency-selected-position : 0.95
+line-of-sight:latency:ExtraTreesClassifier:latency-raw-position : 0.95
+line-of-sight:latency:ExtraTreesClassifier:latency-selected-position : 0.95
+line-of-sight:rssi:NaiveBayes:rssi-basic-position : 0.95
+line-of-sight:rssi:AdaBoost:rssi-raw-position : 0.95
+line-of-sight:rssi:NaiveBayes:rssi-raw-position : 0.767
+---
+non-line-of-sight:latency:NaiveBayes:latency-selected-room : 0.944
+non-line-of-sight:latency:ExtraTreesClassifier:latency-basic-room : 0.942
+non-line-of-sight:latency:AdaBoost:latency-selected-room : 0.938
+non-line-of-sight:rssi:AdaBoost:rssi-basic-room : 0.95
+non-line-of-sight:rssi:NaiveBayes:rssi-selected-room : 0.936
+non-line-of-sight:rssi:NaiveBayes:rssi-raw-room : 0.831
+---
+
+40 datalen, 20 users, 1-dim
+
+line-of-sight:latency:ExtraTreesClassifier:latency-raw-position : 0.993
+line-of-sight:latency:AdaBoost:latency-raw-position : 0.993
+line-of-sight:latency:RandomForest:latency-raw-position : 0.993
+line-of-sight:rssi:AdaBoost:rssi-basic-position : 0.95
+---
+non-line-of-sight:latency:ExtraTreesClassifier:latency-raw-room : 0.981
+non-line-of-sight:latency:RandomForest:latency-raw-room : 0.981
+non-line-of-sight:latency:AdaBoost:latency-raw-room : 0.958
+non-line-of-sight:rssi:NaiveBayes:rssi-raw-room : 0.981
+non-line-of-sight:rssi:AdaBoost:rssi-basic-room : 0.95
+non-line-of-sight:rssi:NaiveBayes:rssi-selected-room : 0.94
+---
+
+20 datalen, 20 users, 1-dim
+
+line-of-sight:latency:RandomForest:latency-raw-position : 0.989
+line-of-sight:latency:ExtraTreesClassifier:latency-raw-position : 0.988
+line-of-sight:latency:AdaBoost:latency-raw-position : 0.988
+line-of-sight:rssi:NaiveBayes:rssi-raw-position : 0.982
+line-of-sight:rssi:AdaBoost:rssi-basic-position : 0.95
+---
+non-line-of-sight:latency:ExtraTreesClassifier:latency-raw-room : 0.966
+non-line-of-sight:latency:RandomForest:latency-raw-room : 0.966
+non-line-of-sight:latency:AdaBoost:latency-raw-room : 0.954
+non-line-of-sight:rssi:NaiveBayes:rssi-raw-room : 0.986
+non-line-of-sight:rssi:AdaBoost:rssi-basic-room : 0.95
+non-line-of-sight:rssi:NaiveBayes:rssi-selected-room : 0.947
+---
+
+##########################################################
+
+spatial granularity
+
+datalen 40
+
+### spatial granularity
+find best prediction
+line-of-sight
+over class
+rssi-raw-position:AdaBoost : 0.08
+over threshold
+[]
+rssi-raw-position:ExtraTreesClassifier : 0.08
+rssi-raw-position:RandomForest : 0.08
+---
+line-of-sight
+per class
+latency-raw-position:RandomForest : 0.472
+over threshold
+[ 3 56 91 96]
+latency-raw-position:ExtraTreesClassifier : 0.455
+latency-raw-position:AdaBoost : 0.384
+---
+non-line-of-sight
+over class
+rssi-raw-position:NaiveBayes : 0.032
+over threshold
+[]
+rssi-raw-position:ExtraTreesClassifier : 0.025
+rssi-raw-position:RandomForest : 0.025
+---
+non-line-of-sight
+per class
+latency-raw-position:ExtraTreesClassifier : 0.391
+over threshold
+[  5   6   7  11  12  13  15  17  20  32  34  35  38  47  54  60  62  68
+  91  93  95 116 119]
+latency-raw-position:RandomForest : 0.382
+latency-raw-position:NaiveBayes : 0.115
+---
+
+datalen 60
+
+### spatial granularity
+find best prediction
+line-of-sight
+over class
+rssi-raw-position:ExtraTreesClassifier : 0.08
+over threshold
+[]
+rssi-raw-position:NaiveBayes : 0.08
+rssi-raw-position:RandomForest : 0.08
+---
+line-of-sight
+per class
+latency-raw-position:RandomForest : 0.525
+over threshold
+[ 3 31 51 56 86]
+latency-raw-position:ExtraTreesClassifier : 0.521
+latency-raw-position:AdaBoost : 0.415
+---
+non-line-of-sight
+over class
+rssi-raw-position:NaiveBayes : 0.032
+over threshold
+[]
+rssi-raw-position:ExtraTreesClassifier : 0.025
+rssi-raw-position:RandomForest : 0.025
+---
+non-line-of-sight
+per class
+latency-raw-position:ExtraTreesClassifier : 0.414
+over threshold
+[  4   5   7   9  11  22  35  50  52  54  58  65  69  91  92  93 102 103
+ 119]
+latency-raw-position:RandomForest : 0.402
+latency-raw-position:NaiveBayes : 0.142
+---
+
+datalen 80
+
+### spatial granularity
+find best prediction
+line-of-sight
+over class
+rssi-raw-position:ExtraTreesClassifier : 0.08
+over threshold
+[]
+rssi-raw-position:RandomForest : 0.08
+rssi-raw-position:NaiveBayes : 0.078
+---
+line-of-sight
+per class
+latency-raw-position:ExtraTreesClassifier : 0.514
+over threshold
+[ 26  46  51  86  96 119]
+latency-raw-position:RandomForest : 0.506
+latency-raw-position:AdaBoost : 0.379
+---
+non-line-of-sight
+over class
+rssi-raw-position:NaiveBayes : 0.032
+over threshold
+[]
+rssi-raw-position:ExtraTreesClassifier : 0.025
+rssi-raw-position:RandomForest : 0.025
+---
+non-line-of-sight
+per class
+latency-raw-position:RandomForest : 0.436
+over threshold
+[  6   7  11  30  41  42  54  57  64  68  69  77  81  82  91  92  93  95
+ 102 119]
+latency-raw-position:ExtraTreesClassifier : 0.432
+latency-raw-position:NaiveBayes : 0.134
+---

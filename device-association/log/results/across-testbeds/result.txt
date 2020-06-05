@@ -1,0 +1,21 @@
+train: full, test: full
+AdaBoost-contact frequency day full false
+train: full, test: mid
+NaiveBayes-coupling time ratio week full true
+train: full, test: sparse
+NaiveBayes-coupling time ratio week full true
+-----------------
+train: mid, test: full
+SVM-coupling time week true min
+train: mid, test: mid
+AdaBoost-contact frequency day full false
+train: mid, test: sparse
+SVM-coupling time week true mean
+-----------------
+train: sparse, test: full
+SVM-coupling time week full false
+train: sparse, test: mid
+SVM-coupling time week full false
+train: sparse, test: sparse
+AdaBoost-contact frequency day full false
+-----------------

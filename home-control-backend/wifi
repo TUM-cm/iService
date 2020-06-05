@@ -1,0 +1,123 @@
+Reinitialization
+* modprobe 8188eu
+* reboot
+* sudo /etc/init.d/networking restart
+* sudo /etc/init.d/isc-dhcp-server restart
+* sudo hostapd /etc/hostapd/hostapd.conf &
+
+WiFi Installation
+=================
+
+1. Compile and install driver for chipset RTL8188EU
+
+apt-get install unzip
+apt-get install dkms
+wget https://github.com/lwfinger/rtl8188eu/archive/master.zip
+unzip master.zip
+mv rtl8188eu-master rtl8188eu
+dkms add ./rtl8188eu
+dkms build 8188eu/1.0
+dkms install 8188eu/1.0
+
+2. Configure wlan0 via /etc/network/interfaces
+
+# WiFi AP
+auto wlan0
+iface wlan0 inet static
+  address 192.168.42.1
+  network 192.168.42.0
+  netmask 255.255.255.0
+  broadcast 192.168.42.255
+
+* Rename access point
+vi /etc/udev/rules.d/70-persistent-net.rules
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="18:d6:c7:1d:49:eb", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="wlan*", NAME="wlan0"
+/etc/init.d/networking restart
+
+ifconfig <old_name> down
+ip link set <old_name> name <new_name>
+ifconfig <new_name> up
+
+3. dhcp
+
+https://fleshandmachines.wordpress.com/2012/10/04/wifi-acces-point-on-beaglebone-with-dhcp/ (isc-dhcp)
+https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=54946# (udhcp)
+
+apt-get install isc-dhcp-server
+
+vi /etc/dhcp/dhcpd.conf (at the end)
+
+subnet 192.168.42.0 netmask 255.255.255.0 {
+  range 192.168.42.2 192.168.42.10;
+}
+
+/etc/init.d/isc-dhcp-server restart
+
+########
+
+### Compile custom hostapd for chipset RTL8188
+* source: https://github.com/lwfinger/rtl8188eu
+* cd /hostapd-0.8/hostapd
+* cp defconfig .config
+* make
+* make install
+
+check hostapd versions: whereis hostapd
+copy hostapd v0.8: /usr/sbin/hostapd using wrong (newer) version:
+cp /usr/local/bin/hostapd /usr/sbin
+hostapd /etc/hostapd/hostapd.conf &
+
+# Configuration of hostapd.conf
+
+interface=wlan0
+driver=rtl871xdrv
+ssid=beaglebone
+hw_mode=g
+channel=11
+macaddr_acl=0
+auth_algs=1
+max_num_sta=1
+ignore_broadcast_ssid=0
+wpa=2
+wpa_passphrase=ideaclouds
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=TKIP
+rsn_pairwise=CCMP
+
+Without password
+
+interface=wlan0
+driver=rtl871xdrv
+ssid=beaglebone1
+channel=1
+max_num_sta=2
+ignore_broadcast_ssid=0
+
+Adjust daemon conf to enable config via service
+vi /etc/default/hostapd
+DAEMON_CONF="/etc/hostapd/hostapd.conf"
+
+### wpa_supplicant blocks access point mode
+* killall wpa_supplicant
+* apt-get remove wpasupplicant
+
+### Start of access point via ./hostapd hostapd.conf (-d or -dd for debug)
+- check via iwconfig, if wlan interface is in master mode
+
+wlan0     IEEE 802.11bg  ESSID:"beaglebone"  Nickname:"<WIFI@REALTEK>"
+          Mode:Master  Frequency:2.462 GHz  Access Point: 18:D6:C7:1D:30:C9
+          Bit Rate:54 Mb/s   Sensitivity:0/0
+          Retry:off   RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:off
+          Link Quality=0/100  Signal level=-80 dBm  Noise level=0 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+### FAQ
+
+'ine 2: invalid/unknown driver 'rtl871xdrv
+1 errors found in configuration file 'hotspot.conf'
+
+Copy from Windows to Linux via WinSCP leads to wrong line break
+Change copy mode to text
