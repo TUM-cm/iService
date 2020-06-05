@@ -3,8 +3,8 @@ User-Oriented and Privacy-Aware Proximity Services
 
 For the PhD thesis "Edge-Driven Proximity Service Platform for the Internet of Things in Indoor Environments" of Michael Haus
 
-This repository addresses the following question of the research problem:
-RQ3: How to realize user-oriented and privacy-aware IoT services by utilizing physical surrounding awareness in the managed indoor IoT areas?
+This repository addresses the RQ3 of the research problem:<br/>
+**How to realize user-oriented and privacy-aware IoT services by utilizing physical surrounding awareness in the managed indoor IoT areas?**
 
 We address this question by realizing a set of different proximity services. Our fine-granular seamless device association uses the
 similarity of visible light signaling in different spatial areas which are impossible to differentiate with Wi-Fi. On this basis, we
